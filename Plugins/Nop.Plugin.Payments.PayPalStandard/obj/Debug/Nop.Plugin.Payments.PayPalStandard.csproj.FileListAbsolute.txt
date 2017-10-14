@@ -9,3 +9,15 @@ F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Payment
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csproj.App.config
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.dll
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.pdb
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\Configure.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Views\PaymentInfo.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\web.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Description.txt
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\logo.jpg
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.dll
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Payments.PayPalStandard\Nop.Plugin.Payments.PayPalStandard.pdb
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csproj.App.config
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.csprojResolveAssemblyReference.cache
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.dll
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Payments.PayPalStandard\obj\Debug\Nop.Plugin.Payments.PayPalStandard.pdb

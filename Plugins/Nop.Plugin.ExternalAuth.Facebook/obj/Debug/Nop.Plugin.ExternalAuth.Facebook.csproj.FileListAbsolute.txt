@@ -12,3 +12,17 @@ F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.ExternalAuth.Face
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Description.txt
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\Configure.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Views\PublicInfo.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\web.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\facebookstyles.css
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Content\Images\facebook-signing.png
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\logo.jpg
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.dll
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\ExternalAuth.Facebook\Nop.Plugin.ExternalAuth.Facebook.pdb
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csproj.App.config
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.csprojResolveAssemblyReference.cache
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.dll
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.ExternalAuth.Facebook\obj\Debug\Nop.Plugin.ExternalAuth.Facebook.pdb

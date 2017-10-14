@@ -11,3 +11,16 @@ F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Pickup.
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.csprojResolveAssemblyReference.cache
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.dll
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.pdb
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Description.txt
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\Configure.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\Create.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\Edit.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Views\_CreateOrUpdate.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\web.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\logo.png
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.dll
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Pickup.PickupInStore\Nop.Plugin.Pickup.PickupInStore.pdb
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.csprojResolveAssemblyReference.cache
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.dll
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Pickup.PickupInStore\obj\Debug\Nop.Plugin.Pickup.PickupInStore.pdb

@@ -2,7 +2,7 @@
 @using Nop.Web.Models.ShoppingCart;
 <div id="flyout-cart" class="flyout-cart gio-hang">
     <div class="mini-shopping-cart">
-        @*<div class="count">
+        <div class="count">
             @if (Model.TotalProducts == 0)
             {
                <span class="txtNameCart">@T("ShoppingCart.Mini.NoItems")</span> 
@@ -15,7 +15,7 @@
                    string.Format(T("ShoppingCart.Mini.Items").Text, Model.TotalProducts)))
                 )
             }
-        </div>*@
+        </div>
         @if (Model.TotalProducts > 0)
         {
             <div class="items">

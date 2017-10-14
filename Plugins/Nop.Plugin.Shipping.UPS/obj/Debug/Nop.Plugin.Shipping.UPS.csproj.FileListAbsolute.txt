@@ -9,3 +9,14 @@ F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.dll
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.pdb
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Shipping.UPS\Views\Configure.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Shipping.UPS\web.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Shipping.UPS\Description.txt
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Shipping.UPS\logo.jpg
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.dll
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Shipping.UPS\Nop.Plugin.Shipping.UPS.pdb
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csproj.App.config
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.csprojResolveAssemblyReference.cache
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.dll
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.Shipping.UPS\obj\Debug\Nop.Plugin.Shipping.UPS.pdb

@@ -171,3 +171,15 @@ F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
 F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+F:\phan\nopcommerce\github\nopCommerce\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+F:\phan\nopcommerce\github\nopCommerce\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
