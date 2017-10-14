@@ -1,0 +1,11 @@
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.USPS\Views\Configure.cshtml
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.USPS\web.config
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.USPS\Description.txt
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.USPS\logo.jpg
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll.config
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.dll
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Shipping.USPS\Nop.Plugin.Shipping.USPS.pdb
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csproj.App.config
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.dll
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.pdb
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Shipping.USPS\obj\Debug\Nop.Plugin.Shipping.USPS.csprojResolveAssemblyReference.cache

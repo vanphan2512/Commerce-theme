@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "~/Views/Shared/_ColumnsOne.cshtml";
+
+    //page class
+    Html.AppendPageCssClassParts("html-home-page");
+}
+
+<section id="slider">
+    @Html.Widget("home_page_slide")
+</section>
+<div class="clear"></div>
+<section id="content">
+    <div class="policies nobottommargin">
+        <div class="container clearfix">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3">
+                    <div class="feature-box fbox-plain fbox-dark fbox-small">
+                        <div class="fbox-icon">
+                            <img src="~/Themes/ThemeCustom/Content/images/policies_icon_1.png" alt="The Bag">
+                        </div>
+                        <h3>Miễn phí giao hàng</h3>
+                        <p class="notopmargin">Nhận hàng trong vòng 3 ngày</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <div class="feature-box fbox-plain fbox-dark fbox-small">
+                        <div class="fbox-icon">
+                            <img src="~/Themes/ThemeCustom/Content/images/policies_icon_2.png" alt="The Bag">
+                        </div>
+                        <h3>Quà tặng</h3>
+                        <p class="notopmargin">Nhiều quà tặng và ưu đãi hấp dẫn</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <div class="feature-box fbox-plain fbox-dark fbox-small">
+                        <div class="fbox-icon">
+                            <img src="~/Themes/ThemeCustom/Content/images/policies_icon_3.png" alt="The Bag">
+                        </div>
+                        <h3>Bảo đảm chất lượng</h3>
+                        <p class="notopmargin">Sản phẩm đã dược kiểm định</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <div class="feature-box fbox-plain fbox-dark fbox-small">
+                        <div class="fbox-icon">
+                            <img src="~/Themes/ThemeCustom/Content/images/policies_icon_4.png" alt="The Bag">
+                        </div>
+                        <h3>HOTLINE: <a href="tel:08 7300 5757">08 7300 5757</a></h3>
+                        <p class="notopmargin">Dịch vụ hỗ trợ bạn 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container clearfix">
+        <div class="index_banner_wrap">
+            @Html.Action("HomepageCategories", "Catalog")
+        </div>
+        <!-- collection group -->
+        @*<div class="index_col_wrap nobottommargin section nobg" id="tech_store_index_col_1">
+                @Html.Action("HomepageProducts", "Product")
+            </div>*@
+        <div class="index_col_wrap nobottommargin section nobg">
+            @Html.Widget("home_page_before_news")
+        </div>
+
+        <div class="popular_brand section nobottommargin nobg">
+            @Html.Widget("content_partner")
+        </div>
+    </div>
+</section>
+<div class="page home-page">
+    <div class="page-body">
+
+        @* @Html.Action("TopicBlock", "Topic", new { systemName = "HomePageText" })*@
+        @Html.Widget("home_page_before_categories")
+        @Html.Widget("home_page_before_products")
+        @Html.Widget("home_page_before_best_sellers")
+        @Html.Action("HomepageBestSellers", "Product")
+        @*@Html.Widget("home_page_before_news")*@
+        @Html.Action("HomePageNews", "News")
+        @Html.Widget("home_page_before_poll")
+        @Html.Action("HomePagePolls", "Poll")
+        @Html.Widget("home_page_bottom")
+
+    </div>
+</div>

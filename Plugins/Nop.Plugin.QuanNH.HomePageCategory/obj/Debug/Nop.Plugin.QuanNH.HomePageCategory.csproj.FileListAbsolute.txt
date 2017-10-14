@@ -1,0 +1,12 @@
+D:\13 - IIS\Sim3G\Development\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.QuanNH.HomePageCategory.csprojResolveAssemblyReference.cache
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\web.config
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\Description.txt
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\Nop.Plugin.QuanNH.HomePageCategory.dll
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\Nop.Plugin.QuanNH.HomePageCategory.pdb
+D:\13 - IIS\Sim3G\Development\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.QuanNH.HomePageCategory.dll
+D:\13 - IIS\Sim3G\Development\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.QuanNH.HomePageCategory.pdb
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\Views\HomePageCategory\Configure.cshtml
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\logo.jpg
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\Nop.Plugin.QuanNH.HomePageCategory.dll.config
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\Views\HomePageCategory\PublicInfo.cshtml
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\QuanNH.HomePageCategory\Views\HomePageCategory\ProductsIsHomePage.cshtml

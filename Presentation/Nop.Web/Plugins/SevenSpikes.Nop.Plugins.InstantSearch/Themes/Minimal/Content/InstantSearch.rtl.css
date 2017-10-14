@@ -1,0 +1,90 @@
+﻿/*
+* Copyright 2014 Seven Spikes Ltd. All rights reserved. (http://www.nop-templates.com)
+* http://www.nop-templates.com/t/licensinginfo
+*/
+
+* {
+	direction: rtl;
+}
+input.instant-search-busy {
+	background: url('../../../images/ajax-loader-small.gif') no-repeat 96% center !important;
+}
+span.search-box-text,
+.search-box select {
+	float: right;
+}
+.with-caregory-search-enabled .search-box select {
+	margin-right: -1px;
+	margin-left: 0;
+}
+.store-search-box.with-caregory-search-enabled .search-box-button {
+	float: left;
+}
+.store-search-box.with-caregory-search-enabled .select-wrap {
+	left: 42px;
+	right: auto;
+}
+.store-search-box.with-caregory-search-enabled .select-wrap .select-inner {
+	right: 7px;
+	left: auto;
+}
+.instantSearch {
+    right: 0;
+}
+.instantSearch .k-item {
+	background: url("images/category-title-decoration.png") repeat-x right top;
+}
+.instant-search-item .img-block {
+	float: right;
+}
+.instant-search-item .img-block img {
+	left: 0;
+	right: 0;
+}
+.instant-search-item .detail {
+	margin-right: 90px;
+	margin-left: 0;
+	text-align: right;
+}
+.k-item.k-state-hover .instant-search-item,
+.k-item.k-state-focused .instant-search-item {
+	background: #f9f9f9  url("images/category-title-decoration.png") repeat-x right top;
+}
+@media all and (min-width: 481px) {
+	.store-search-box.with-caregory-search-enabled .k-widget.k-autocomplete:before {
+		left: 190px;
+		right: auto;
+	}
+}
+
+@media all and (min-width: 1366px) {
+	.header.normal .store-search-box.with-caregory-search-enabled .select-wrap .select-inner {
+		right: 0;
+		left: 15px;
+		padding: 0 5px 0 0;
+	}
+}
+@media all and (min-width: 1601px) {
+	.header.normal .store-search-box.with-caregory-search-enabled .k-widget.k-autocomplete::before {
+		left: 135px;
+		right: auto;
+	}
+	.header.normal .store-search-box.with-caregory-search-enabled .select-wrap .select-inner {
+		padding-right: 10px;
+		padding-left: 0;
+	}
+}
+@media all and (min-width: 1901px) {
+	.header.normal .search-box form .k-widget.k-autocomplete::after {
+		left: -140px;
+		right: auto;
+	}
+	.header.normal .store-search-box.with-caregory-search-enabled .k-widget.k-autocomplete:before {
+		left: 180px;
+		right: auto;
+	}
+	.header.normal .store-search-box.with-caregory-search-enabled .k-widget.k-autocomplete:after {
+		left: 42px;
+		right: auto;
+	}
+}

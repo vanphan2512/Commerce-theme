@@ -1,0 +1,117 @@
+﻿* {
+	direction: rtl;
+}
+@media all and (max-width: 1280px) {
+}
+.details .buttons .quick-view-button a {
+	padding: 0 35px 0 0;
+}
+.quick-view-button a {
+	background: url(images/quick-view-button.png) no-repeat right center;
+}
+.product-list .item-box .buttons .quick-view-button {
+	margin: 0 0 2px 0;
+}
+.product-list .item-box .buttons .quick-view-button a {
+	padding: 0 60px 0 0;
+	background-position: 92% center;
+	text-align: right;
+}
+.product-list .item-box .buttons .quick-view-button a:hover {
+	background: transparent url("images/quick-view-button.png") no-repeat 92% center;
+}
+.k-overlay {
+	right: 0;
+	left: auto;
+}
+.quickView .k-loading-mask {
+	left: 0;
+	right: 0;
+}
+.quickView .k-loading-image {
+	left: 0;
+	right: 0;
+}
+.quickView {
+	right: 50% !important;
+	left: auto;
+	margin: 0 -350px 0 0;
+}
+.quickView .k-window-titlebar .k-window-actions {
+	left: 0;
+	right: auto;
+}
+.quickView h1.product-name {
+	text-align: right;
+}
+.quickView .gallery {
+	float: right;
+}
+.quickView .thumbnails a {
+	float: right;
+}
+.quickView .thumbnails a:nth-child(3n+1) {
+	margin-right: 0;
+	margin-left: 0;
+}
+.quickView .links-panel a:before,
+.quickView .links-panel a:after {
+	left: 0;
+	right: auto;
+}
+.quickView .links-panel a:before {
+	left: auto;
+	right: 0;
+}
+.quickView .overview {
+	float: left;
+	padding: 0 0 0 10px;
+}
+.quickView .ui-accordion-header {
+	background: url(images/category-title-decoration.png) repeat-x right bottom;
+	padding: 8px 0 8px 12px;
+	text-align: right;
+}
+.quickView .ui-accordion-header span {
+	left: 10px;
+	right: auto;
+}
+.quickView .overview .left {
+	float: right;
+	text-align: right;
+}
+.quickView .overview .right {
+	float: left;
+	text-align: left;
+}
+.quickView .overview .attributes .color-squares li {
+	margin: 0 0 0 4px;
+}
+.quickView .overview .purchase-area {
+	background: url(images/category-title-decoration.png) repeat-x right top;
+}
+.quickView .overview .add-to-cart {
+	float: right;
+}
+.quickView .overview .tier-prices .prices-row > div,
+.quickView .overview .tier-prices .field-header {
+	background: #fff  url(images/category-title-decoration.png) repeat-x right bottom;
+}
+.quickView .overview .full-description {
+	text-align: right;
+}
+.quickView .product-grid .title:before {
+	left: 0;
+	right: 0;
+}
+.quickView .item-box:nth-child(5n+1) {
+	margin-right: 0;
+	margin-left: 0;
+}
+.quickView .product-variant {
+	float: right;
+}
+.quickView .product-variant:first-child {
+	margin-right: 0;
+	margin-left: 0;
+}

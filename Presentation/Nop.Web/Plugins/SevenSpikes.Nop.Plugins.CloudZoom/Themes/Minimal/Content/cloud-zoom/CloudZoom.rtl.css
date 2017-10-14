@@ -1,0 +1,17 @@
+.cloudzoom-zoom {
+	right: calc(100% + 50px) !important;
+	left: auto !important;
+}
+
+@media all and (min-width: 1281px) {
+     .gallery .picture-wrapper {
+        float: right;
+    }
+}
+@media all and (min-width: 1366px) {
+
+    .sevenspikes-cloudzoom-gallery .picture-wrapper {
+        float: left;
+    }
+
+}

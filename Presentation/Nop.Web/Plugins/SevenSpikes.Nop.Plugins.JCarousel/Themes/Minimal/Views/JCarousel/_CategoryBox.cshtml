@@ -1,0 +1,43 @@
+﻿@using Nop.Web.Models.Catalog
+
+@model CategoryModel.SubCategoryModel
+
+@{
+    var controllerName = System.Web.HttpContext.Current.Request.RequestContext.RouteData.GetRequiredString("controller");
+    var actionName = System.Web.HttpContext.Current.Request.RequestContext.RouteData.GetRequiredString("action");
+
+    var isHomePage = controllerName.Equals("home", StringComparison.InvariantCultureIgnoreCase) &&
+                    actionName.Equals("index", StringComparison.InvariantCultureIgnoreCase);
+}
+
+@if (isHomePage)
+{
+    <div class="category-item">
+        <div class="picture">
+            <a href="@Url.RouteUrl("Category", new { SeName = Model.SeName })" title="@Model.PictureModel.Title">
+                <img alt="@Model.PictureModel.AlternateText" src="@Model.PictureModel.ImageUrl" title="@Model.PictureModel.Title" />
+            </a>
+        </div>
+        <h2 class="title">
+            <a href="@Url.RouteUrl("Category", new { SeName = Model.SeName })" title="@Model.PictureModel.Title">
+                <span>@Model.Name</span>
+                <span class="view-all">@T("SevenSpikes.Themes.Minimal.HomePageCategories.text")</span>
+            </a>
+        </h2>
+    </div>
+}
+else
+{
+    <div class="sub-category-item">
+        <div class="picture">
+            <a href="@Url.RouteUrl("Category", new { SeName = Model.SeName })" title="@Model.PictureModel.Title">
+                <img alt="@Model.PictureModel.AlternateText" src="@Model.PictureModel.ImageUrl" title="@Model.PictureModel.Title" />
+            </a>
+        </div>
+        <h2 class="title">
+            <a href="@Url.RouteUrl("Category", new { SeName = Model.SeName })" title="@Model.PictureModel.Title">
+                @Model.Name
+            </a>
+        </h2>
+    </div>
+}

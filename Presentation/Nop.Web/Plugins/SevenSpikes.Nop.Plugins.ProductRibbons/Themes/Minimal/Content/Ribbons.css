@@ -1,0 +1,59 @@
+﻿/*
+* Copyright 2014 Seven Spikes Ltd. All rights reserved. (http://www.nop-templates.com)
+* http://www.nop-templates.com/t/licensinginfo
+*/
+
+@media all and (max-width: 480px) {
+
+    .product-list .item-box .ribbon-wrapper {
+        float: none;
+    }
+
+}
+
+@media all and (min-width: 481px) {
+
+    .product-list .item-box .ribbon-wrapper {
+        width: 30%; /*set width according to theme design and layout*/
+    }
+    .product-list .item-box .ribbon-wrapper .picture {
+        float: none;
+        width: auto;
+    }
+
+}
+@media all and (max-width: 768px) {
+    .item-grid .item-box .ribbon-wrapper {
+        float: none;
+        height: 100%;
+        width: 100%;
+    }
+}
+@media all and (min-width: 769px) {
+    .item-grid .item-box .ribbon-wrapper {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    .item-grid .item-box .ribbon-wrapper .picture {
+        float: none;
+        width: 100%;
+    }
+    .product-list .item-box .ribbon-wrapper {
+        width: 32%;
+    }
+    .product-details-page .item-box .ribbon-wrapper,
+    .shopping-cart-page .item-box .ribbon-wrapper {
+        float: none;
+        width: 100%;
+    }
+
+}
+@media all and (min-width: 1281px) {
+
+.product-list .item-box .ribbon-wrapper {
+    width: 260px;
+} 
+
+}
+/*IMPORTANT: breakpoints range depends on where "view products in list" is available and where is not */

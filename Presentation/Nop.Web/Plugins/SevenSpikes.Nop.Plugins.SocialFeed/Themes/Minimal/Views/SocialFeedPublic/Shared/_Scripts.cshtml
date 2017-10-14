@@ -1,0 +1,37 @@
+﻿@using SevenSpikes.Nop.Plugins.SocialFeed.Enum
+@model SocialNetworkType
+
+@{
+    var cssThemePath = "~/Plugins/SevenSpikes.Nop.Plugins.SocialFeed/Themes/Minimal/Content/{0}";
+    var jsThemePath = "~/Plugins/SevenSpikes.Nop.Plugins.SocialFeed/Themes/Minimal/Content/scripts/{0}";
+    var jsPluginPath = "~/Plugins/SevenSpikes.Nop.Plugins.SocialFeed/Scripts/{0}";
+
+
+    switch (Model)
+    {
+        case SocialNetworkType.Facebook:
+
+            Html.AddScriptParts(string.Format(jsPluginPath, "masonry.pkgd.min.js"));
+
+            break;
+        case SocialNetworkType.Twitter:
+
+
+            break;
+        case SocialNetworkType.GooglePlus:
+
+            Html.AddScriptParts(string.Format(jsPluginPath, "masonry.pkgd.min.js"));
+
+            break;
+        case SocialNetworkType.Pinterest:
+
+            Html.AddScriptParts(string.Format(jsPluginPath, "masonry.pkgd.min.js"));
+
+            break;
+ 
+    }
+    
+    
+    Html.AddScriptParts(string.Format(jsThemePath, "simple-scrollbar.min.js"));
+    Html.AddScriptParts(string.Format(jsThemePath, "socialfeed.js"));
+}

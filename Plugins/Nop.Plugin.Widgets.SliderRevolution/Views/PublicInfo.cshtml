@@ -1,0 +1,52 @@
+﻿@model Nop.Plugin.Widgets.SliderRevolution.Models.PublicInfoModel
+@{
+    Layout = "";
+
+    Html.AddScriptParts("~/Plugins/Widgets.SliderRevolution/Scripts/jquery.themepunch.plugins.min.js");
+    Html.AddScriptParts("~/Plugins/Widgets.SliderRevolution/Scripts/jquery.themepunch.revolution.min.js");
+    Html.AddCssFileParts("~/Plugins/Widgets.SliderRevolution/Content/sliderrevolution/css/settings.css");
+    Html.AddCssFileParts("~/Plugins/Widgets.SliderRevolution/Content/sliderrevolution/css/navstylechange.css");
+}
+@using Nop.Web.Framework.UI
+
+@helper RenderSliderLine(string pictureUrl, string text, string link, string dataTransition = "")
+{
+if (!string.IsNullOrEmpty(pictureUrl))
+{
+     <!-- SLIDE  -->
+        <li data-transition="random" data-slotamount="7" data-saveperformance="off">
+            <img src="@pictureUrl" alt="@text" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+            <!-- LAYERS -->
+        </li>
+    }
+}
+<section id="slider" class="nopadding clearfix">
+    <div class="tp-banner">
+        <ul>
+            @RenderSliderLine(Model.Picture1Url, Model.Text1, Model.Link1)
+            @RenderSliderLine(Model.Picture2Url, Model.Text2, Model.Link2)
+            @RenderSliderLine(Model.Picture3Url, Model.Text3, Model.Link3)
+            @RenderSliderLine(Model.Picture4Url, Model.Text4, Model.Link4)
+            @RenderSliderLine(Model.Picture5Url, Model.Text5, Model.Link5)
+        </ul>
+        <div class="tp-bannertimer"></div>
+    </div>
+</section>
+<div class='clear'></div>
+<script type="text/javascript">
+    var revapi;
+    jQuery(document).ready(function () {
+        revapi = jQuery('.tp-banner').revolution(
+            {
+                delay: 9000,
+                startwidth: 1170,
+                startheight: 500,
+                hideThumbs: 10,
+                fullWidth: "on",
+                forceFullWidth: "on"
+
+            });
+
+    });	//ready
+
+</script>

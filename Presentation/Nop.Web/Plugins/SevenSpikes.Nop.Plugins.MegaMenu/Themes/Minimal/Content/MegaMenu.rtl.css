@@ -1,0 +1,210 @@
+﻿/*
+* Copyright 201 Seven Spikes Ltd. All rights reserved. (http://www.nop-templates.com)
+* http://www.nop-templates.com/t/licensinginfo
+*/
+
+* {
+	direction: rtl;
+}
+.social-icons a.twitter {
+	background-position: -30px center;
+}
+.social-icons a.pinterest {
+	background-position: -60px center;
+}
+.social-icons a.instagram {
+	background-position: -90px center;
+}
+.social-icons a.vimeo {
+	background-position: -120px center;
+}
+.social-icons a.google {
+	background-position: -147px center;
+}
+.social-icons a.youtube {
+	background-position: -205px center;
+}
+.social-icons a.rss {
+	background-position: -180px center;
+}
+@media all and (min-width: 1001px) {
+	.header.normal .mega-menu .dropdown,
+.header.normal .mega-menu .dropdown.categories {
+		left: auto;
+		right: auto;
+	}
+	.header.normal .mega-menu .dropdown.categories.fullWidth,
+.header.normal .mega-menu .dropdown.manufacturers.fullWidth {
+		left: 0;
+		right: 0;
+	}
+	.dropdown .box {
+		float: right;
+	}
+    .header.normal .mega-menu .dropdown.fullWidth .row {
+        text-align: right;
+    }
+	.header.normal .mega-menu .categories.fullWidth .box {
+		margin: 0 0 0.66% 0.66%;
+	}
+	.mega-menu .title {
+		text-align: right;
+	}
+	.mega-menu .box ul li {
+		text-align: right;
+	}
+	.header.normal .mega-menu .dropdown.categories.fullWidth .box li a {
+		background: url('images/menu-arrow.png') right center no-repeat;
+		padding: 0 13px 0 0;
+	}
+	.header.normal .manufacturers.fullWidth.dropdown .box {
+		margin: 0 0.625% 0.625% 0;
+	}
+	.manufacturers.fullWidth li * {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.header.normal .mega-menu .dropdown {
+		left: auto;
+		right: auto;
+	}
+	.header.normal .mega-menu li a.products-item-menu:before,
+.header.normal .mega-menu li .with-subcategories:before {
+		left: 0;
+		right: 0;
+	}
+	.header.normal .mega-menu .box .subcategories li {
+		text-align: right;
+	}
+	.header.normal .mega-menu .sublist-wrap {
+		left: auto;
+		right: auto;
+	}
+	.header.normal .mega-menu .sublist-wrap .sublist-wrap {
+		right: 100%;
+		left: auto;
+		padding: 0 10px 0 0;
+	}
+	.header.normal .mega-menu .sublist-wrap .sublist {
+		padding: 20px 30px 20px 0;
+	}
+	.header.normal .mega-menu .sublist-wrap li {
+		text-align: right;
+	}
+	.header.normal .mega-menu .sublist-wrap li a {
+		padding-left: 20px;
+		padding-right: 0;
+	}
+	.header.normal .mega-menu .sublist-wrap li a.with-subcategories {
+		background: url(images/normal-menu-arrow-rtl.png) no-repeat left center;
+	}
+	.header.normal .mega-menu .dropdown .box:first-child {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	.header.normal .mega-menu .dropdown.categories .title:after,
+.header.normal .mega-menu .dropdown.manufacturers .title:after {
+		left: -15px;
+		right: -15px;
+		background: url(images/category-title-decoration.png) repeat-x right bottom;
+	}
+	.header.normal .mega-menu .dropdown.manufacturers {
+		left: auto;
+		right: auto;
+	}
+	.header.mobile ~ .header-menu-parent .header-menu > .close-menu {
+		left: 0;
+		right: auto;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu > li.has-sublist > a span {
+		right: 0;
+		left: auto;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu > li.has-sublist > a span.left {
+		right: auto;
+		left: 0;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu > li > a:after,
+.header.mobile ~ .header-menu-parent .mega-menu > li > span:after {
+		left: 0;
+		right: 0;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu > li > span:after {
+		background: url("images/menu-border.png") repeat-x right top;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu > li .dropdown .row-wrapper:after,
+.header.mobile ~ .header-menu-parent .mega-menu .sublist-wrap:after,
+.header.mobile ~ .header-menu-parent .mega-menu .dropdown.categories:after {
+		left: 0;
+		right: 0;
+		background: url(images/menu-border.png) repeat-x right bottom;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .categories.fullWidth .box,
+.header.mobile ~ .header-menu-parent .mega-menu .manufacturers .box {
+		margin: 0 1.533% 0 0;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .manufacturers .box {
+		margin: 0 1.25% 0 0;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .manufacturers .box ul li {
+		float: right;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .categories.fullWidth .box .title, 
+.header.mobile ~ .header-menu-parent .mega-menu .manufacturers .box .title {
+		left: 0;
+		right: 0;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .sublist-wrap li:before,
+.header.mobile ~ .header-menu-parent .mega-menu .box li:before {
+		left: 0;
+		right: auto;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .with-subcategories ~ .sublist-wrap > .sublist.vendors > li:after {
+		left: 0;
+		right: auto;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .with-subcategories ~ .sublist-wrap > .sublist.vendors > li a {
+		padding-right: 35px;
+		padding-left: 0;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .dropdown.manufacturers .box li:last-child a:before,
+.header.mobile ~ .header-menu-parent .mega-menu .dropdown.manufacturers .box li:last-child a:after {
+		left: 15px;
+		right: auto;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .dropdown.manufacturers .box li:last-child a:before {
+		left: auto;
+		right: 15px;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .with-subcategories ~ .sublist-wrap > .sublist > li {
+		margin: 0 0 2% 1%;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu > .with-subcategories ~ .sublist-wrap > .sublist > li {
+		text-align: right;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .with-subcategories ~ .sublist-wrap > .sublist > li a {
+		padding-right: 0;
+		padding-left: 0;
+		text-align: right;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu .sublist-wrap .sublist-wrap {
+		right: 100%;
+		left: auto;
+		padding: 0 40px 0 0;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu > li > .sublist-wrap > .sublist > li {
+		text-align: right;
+	}
+	.header.mobile ~ .header-menu-parent .mega-menu > li > .sublist-wrap > .sublist > li > .sublist-wrap > .sublist > li {
+		padding: 0 20px 0 0;
+		text-align: right;
+		background: url(images/menu-arrow.png) no-repeat right center;
+	}
+    .header.mobile ~ .header-menu-parent .mega-menu .categories .row, 
+    .header.mobile ~ .header-menu-parent .mega-menu .manufacturers .row,
+    .header.mobile ~ .header-menu-parent .mega-menu .sublist-wrap .sublist.vendors,
+    .header.mobile ~ .header-menu-parent .mega-menu .with-subcategories ~ .sublist-wrap {
+        text-align: right;
+    }
+
+}

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Language Name="English">
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Menu.MenuName">
+    <Value>Minimal</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Admin.SettingsSubmenu.Minimal">
+    <Value>Settings</Value>
+  </LocaleResource>
+  <LocaleResource Name="Sevenspikes.Themes.Admin.ManageResources.Minimal">
+    <Value>Manage Resources</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings">
+    <Value>Minimal Settings</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.ThemeSettings">
+    <Value>Minimal Theme Settings</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.TabTitle.GeneralSettings">
+    <Value>General Settings</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.TabTitle.AdditionalSettings">
+    <Value>Additional Settings</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.TabTitle.NewsletterSettings">
+    <Value>Newsletter Settings</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.Preset">
+    <Value>Preset</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.Preset.Hint">
+    <Value>Choose your color preset of the theme.</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.InstagramUrl">
+    <Value>Instagram Url</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.InstagramUrl.Hint">
+    <Value>Enter your Instagram page link.</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.IsCategoryPageOneColumn">
+    <Value>Catalog Pages One Column layout</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.IsCategoryPageOneColumn.Hint">
+    <Value>Check to make all catalog pages in One Column.</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.IsHeaderInsideHomePageMainSlider">
+    <Value>Place Header Inside Home Page Main Slider</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.IsHeaderInsideHomePageMainSlider.Hint">
+    <Value>Check to place the header inside the home page main slider. This setting works only if you use the Anywhere Sliders plugin inside the "home_page_main_slider" widget zone.</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.IsMenuMobile">
+    <Value>Menu Mobile Look</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.IsMenuMobile.Hint">
+    <Value>Enable the mobile app menu look.</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.ItemBoxHoverEffect">
+    <Value>Item Box Hover Effect</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.ItemBoxHoverEffect.Hint">
+    <Value>Choose the product item  box hover effect</Value>
+  </LocaleResource>
+
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.EnableNewsletterPopup">
+    <Value>Enable Newsletter Subscription Popup</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.EnableNewsletterPopup.Hint">
+    <Value>When checked the newsletter subscription popup will be shown on page load</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.NewsletterPopupDelayedShow">
+    <Value>Newsletter Popup Delay</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.NewsletterPopupDelayedShow.Hint">
+    <Value>The number of milliseconds after the popup will show up (1 second = 1000ms)</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.NewsletterPopupBackgroundImageId">
+    <Value>Newsletter Popup Background Image</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Admin.Settings.NewsletterPopupBackgroundImageId.Hint">
+    <Value>The image which will be shown as popup background</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Newsletter">
+    <Value>Newsletter</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Newsletter.Description">
+    <Value>Subscribe to our newsletter and get information about our latest offers and prices.</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Newsletter.Subscribe">
+    <Value>Subscribe</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Newsletter.Popup">
+    <Value>Newsletter</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Newsletter.Popup.Description">
+    <Value>Subscribe now to &lt;span&gt;get 10% off&lt;/span&gt; on any product!</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Newsletter.Popup.DontShow">
+    <Value>Don’t show me this message again</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Common.FeaturedCategories">
+    <Value>Featured Categories</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.HomePageCategories.text">
+    <Value>view all</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Common.ProductShareLabel">
+    <Value>Share:</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.Common.CustomerAssistance">
+    <Value>Help</Value>
+  </LocaleResource>
+
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.ShoppingCartPage.TotalTitle">
+    <Value>Checkout</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Themes.Minimal.CategoryPage.FiltersTitle">
+    <Value>Checkout</Value>
+  </LocaleResource>
+
+  <LocaleResource Name="SevenSpikes.Plugins.PrevNextProduct.NextButtonText">
+    <Value>Next</Value>
+  </LocaleResource>
+  <LocaleResource Name="SevenSpikes.Plugins.PrevNextProduct.PrevButtonText">
+    <Value>Prev</Value>
+  </LocaleResource>
+  
+</Language>

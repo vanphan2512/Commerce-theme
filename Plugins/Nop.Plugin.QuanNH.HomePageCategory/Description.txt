@@ -1,0 +1,8 @@
+﻿Group: Widgets
+FriendlyName: HomePageCategory
+SystemName: Widgets.HomePageCategory
+Version: 1.00
+SupportedVersions: 3.90
+Author: nopplugin.com
+DisplayOrder: 1
+FileName: Nop.Plugin.Widgets.HomePageCategory.dll

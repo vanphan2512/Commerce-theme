@@ -1,0 +1,48 @@
+﻿@model Nop.Plugin.Widgets.Partner.Models.PublicInfoModel
+@{
+    Layout = "";
+    Html.AddScriptParts("~/Plugins/Widgets.Partner/Content/owl-carousel/owl.carousel.min.js");
+    Html.AddCssFileParts("~/Plugins/Widgets.Partner/Content/owl-carousel/owl.carousel.min.css");
+}
+@using Nop.Web.Framework.UI
+
+@helper RenderPartnerLine(string pictureUrl, string text, string link, string dataTransition = "")
+{
+    if (!string.IsNullOrEmpty(pictureUrl))
+    {
+        <a class='item' href="@link"><img src="@pictureUrl" alt="@text"></a>
+    }
+}
+<div class='popular_brand section nobottommargin nobg'>
+    <div class='popular_brand_title fancy-title title-border title-center'>
+        <h2>@T("Content.Partner")</h2>
+    </div>
+    <div class="popular_brand_content style_1 owl-carousel owl-theme">
+        @RenderPartnerLine(Model.Picture1Url, Model.Text1, Model.Link1)
+        @RenderPartnerLine(Model.Picture2Url, Model.Text2, Model.Link2)
+        @RenderPartnerLine(Model.Picture3Url, Model.Text3, Model.Link3)
+        @RenderPartnerLine(Model.Picture4Url, Model.Text4, Model.Link4)
+        @RenderPartnerLine(Model.Picture5Url, Model.Text5, Model.Link5)
+        @RenderPartnerLine(Model.Picture6Url, Model.Text6, Model.Link6)
+        @RenderPartnerLine(Model.Picture7Url, Model.Text7, Model.Link7)
+        @RenderPartnerLine(Model.Picture8Url, Model.Text8, Model.Link8)
+        @RenderPartnerLine(Model.Picture9Url, Model.Text9, Model.Link9)
+        @RenderPartnerLine(Model.Picture10Url, Model.Text10, Model.Link10)
+    </div>
+</div>
+<script>
+    $(window).load(function () {
+        $('.popular_brand_content').owlCarousel({
+            dots: false,
+            responsive: {
+                0: {
+                    items: 3
+                },
+                479: {
+                    items: 6
+                }
+            }
+        })
+    });
+</script>
+

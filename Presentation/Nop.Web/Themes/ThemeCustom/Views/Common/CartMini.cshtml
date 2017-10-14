@@ -1,0 +1,11 @@
+﻿@model HeaderLinksModel
+@using Nop.Web.Models.Common;
+<div id="top-cart" class="top-cart-block">
+    <a href="@Url.RouteUrl("ShoppingCart")" id="top-cart-trigger" class="phan">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="top_cart_qty">@T("ShoppingCart.HeaderQuantity", Model.ShoppingCartItems)</span>
+    </a>
+    <div class="top-cart-content">
+            @Html.Action("FlyoutShoppingCart", "ShoppingCart")
+    </div>
+</div>

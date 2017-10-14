@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <Setting Name="MinimalThemeSettings.preset">
+    <Value>c49169</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.defaultpreset">
+    <Value>c49169</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.defaultproductimageproportion">
+    <Value>100</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.defaultcategoryimageproportion">
+    <Value>64</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.productimageproportion">
+    <Value>100</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.categoryimageproportion">
+    <Value>64</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.IsCategoryPageOneColumn">
+    <Value>false</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.IsHeaderInsideHomePageMainSlider">
+    <Value>true</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.IsMenuMobile">
+    <Value>true</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.ItemBoxHoverEffect">
+    <Value>hover-effect-1</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.EnableNewsletterPopup">
+    <Value>false</Value>
+  </Setting>
+  <Setting Name="MinimalThemeSettings.NewsletterPopupDelayedShow">
+    <Value>2000</Value>
+  </Setting>  
+  <Setting Name="mediasettings.productthumbpicturesizeonproductdetailspage">
+    <Value>120</Value>
+  </Setting>
+  <Setting Name="mediasettings.categorythumbpicturesize">
+    <Value>628</Value>
+  </Setting>
+  <Setting Name="mediasettings.imagesquarepicturesize">
+    <Value>40</Value>
+  </Setting>
+
+  <Setting Name="CloudZoomSettings.NumberOfPictureThumbnailsInCarousel-Minimal">
+    <Value>4</Value>
+  </Setting>
+  <Setting Name="CloudZoomSettings.IsPictureThumbnailsCarouselVertical-Minimal">
+    <Value>true</Value>
+  </Setting>
+  <Setting Name="CloudZoomSettings.ResponsiveBreakpointsForThumbnailsCarousel-Minimal">
+    <Value>[{"breakpoint":1281,"settings":{"slidesToShow":4, "slidesToScroll":4,"arrows":false,"dots":true,"vertical":false}},{"breakpoint":600,"settings":{"slidesToShow":4,"slidesToScroll":4,"arrows":false,"dots":true,"vertical":false}},{"breakpoint":400,"settings":{"slidesToShow":3,"slidesToScroll":3,"arrows":false,"dots":true,"vertical":false}}]</Value>
+  </Setting>
+  <Setting Name="richblogsettings.homepageimagesize">
+    <Value>947</Value>
+  </Setting>
+  <Setting Name="richblogsettings.blogdetailsimagesize">
+    <Value>947</Value>
+  </Setting>
+  <Setting Name="quickviewsettings.productdetailspicturesize">
+    <Value>312</Value>
+  </Setting>
+  <Setting Name="quickviewsettings.productthumbpicturesize">
+    <Value>103</Value>
+  </Setting>
+  <Setting Name="quickviewsettings.productitemselectorchild">
+    <Value>.square-buttons-wrapper</Value>
+  </Setting>
+  <Setting Name="richblogsettings.blogdetailsprevnextwidgetzone">
+    <Value>blogpost_page_under_title</Value>
+  </Setting>
+  <Setting Name="richblogsettings.blogdetailsimagewidgetzone">
+    <Value>blogpost_page_before_date</Value>
+  </Setting>
+  <Setting Name="megamenusettings.numberofmanufacturersperrow">
+    <Value>5</Value>
+  </Setting>
+  <Setting Name="megamenusettings.enableclickfordropdown">
+    <Value>true</Value>
+  </Setting>
+  <Setting Name="megamenusettings.megamenucategorytemplate">
+    <Value>CategoryMenuTemplate.InfiniteCategories</Value>
+  </Setting>
+  <Setting Name="megamenusettings.megamenumanufacturertemplate">
+    <Value>ManufacturerMenuTemplate.WithoutPictures</Value>
+  </Setting>
+  <Setting Name="megamenusettings.showcategoriesinasinglemenuitem">
+    <Value>True</Value>
+  </Setting>
+  <Setting Name="nopajaxcartsettings.miniproductdetailsviewimagesize">
+    <Value>320</Value>
+  </Setting>
+  <Setting Name="nopajaxcartsettings.productaddedtocartimagesize">
+    <Value>320</Value>
+  </Setting>
+  <Setting Name="JCarouselGeneralSettings.ResponsiveBreakpointsForSlickSlider-Minimal">
+    <Value>[{"breakpoint":1561,"settings":{"slidesToShow":5}},{"breakpoint":1001,"settings":{"slidesToShow":4}},{"breakpoint":769,"settings":{"slidesToShow":3}},{"breakpoint":661,"settings":{"slidesToShow":2}},{"breakpoint":481,"settings":{"slidesToShow":1}}]</Value>
+  </Setting>
+  <Setting Name="JCarouselGeneralSettings.ResponsiveBreakpointsCategorySlider-Minimal">
+    <Value>[{"breakpoint":1000,"settings":{"slidesToShow":1}}]</Value>
+  </Setting>
+</Settings>

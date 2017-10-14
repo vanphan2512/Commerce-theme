@@ -1,0 +1,14 @@
+﻿* {
+	direction: rtl;
+}
+.product-review-item .product-review-box {
+	left: 0;
+	right: 0;
+}
+@media all and (min-width: 769px) {
+}
+@media all and (min-width: 1281px) {
+	.product-review-item-inner-wrapper {
+		text-align: right;
+	}
+}

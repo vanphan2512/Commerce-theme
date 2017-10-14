@@ -1,0 +1,11 @@
+﻿@model PublicInfoModel
+@using Nop.Plugin.Widgets.HomePageCategory.Models;
+@if (Model.Products.Count > 1)
+{
+    for (int i = 0; i < Model.Products.Count; i++)
+    {
+        <div class="product_single col-xs-6 col-md-3">
+            @Html.Partial("_ProductBox", Model.Products[i])
+        </div>
+    }
+}

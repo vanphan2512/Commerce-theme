@@ -1,0 +1,12 @@
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\Views\_CountryStateZip.cshtml
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\Description.txt
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\web.config
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\Views\_FixedRate.cshtml
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\Views\Configure.cshtml
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\logo.jpg
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\Nop.Plugin.Tax.FixedOrByCountryStateZip.dll.config
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\Nop.Plugin.Tax.FixedOrByCountryStateZip.dll
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Tax.FixedOrByCountryStateZip\Nop.Plugin.Tax.FixedOrByCountryStateZip.pdb
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Tax.FixedOrByCountryStateZip\obj\Debug\Nop.Plugin.Tax.FixedOrByCountryStateZip.csproj.App.config
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Tax.FixedOrByCountryStateZip\obj\Debug\Nop.Plugin.Tax.FixedOrByCountryStateZip.dll
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.Tax.FixedOrByCountryStateZip\obj\Debug\Nop.Plugin.Tax.FixedOrByCountryStateZip.pdb

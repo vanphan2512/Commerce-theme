@@ -1,0 +1,182 @@
+﻿
+@model HeaderLinksModel
+@using Nop.Web.Models.Common;
+<style>
+#primary-menu li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+#primary-menu li.dropdown > .dropdown-menu{
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+</style>
+ <!-- Top Bar ============================================= -->
+
+
+<div id="top-bar" class="hidden-xs hidden-sm">
+    <div class="container clearfix">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-xs-4">
+                <p class="nobottommargin">
+                    <strong><i class="fa fa-phone"></i> <a href="tel:19001267">19001267</a></strong>
+                    | <strong><i class="fa fa-envelope"></i> <a href="mailto:vanphan2512@gmail.com">vanphan2512@gmail.com</a></strong>
+                </p>
+            </div>
+           <!-- <div class="col-lg-3 col-md-3 hidden-sm hidden-xs top-search">
+                <form action="/search">
+                    <input type="hidden" name="type" value="product">
+                    <input type="text" name="q" placeholder="Bạn tìm gì..." autocomplete="off">
+                </form>
+                @*@Html.Action("SearchBox", "Catalog")*@
+            </div>-->
+            <div class="col-lg-8 col-md-8 col-xs-8 top_link_wrapper pull-right">
+                <!-- Top Links ============================================= -->
+                <nav class="top-menu">
+                    <div class="headerlinks">
+                        @Html.Widget("header")
+                        @Html.Action("HeaderLinks", "Common")
+                    </div>
+                </nav>
+               <!-- <div class="top-links pull-right">
+                    <ul>
+                        <li><a href="/pages/about-us">Giới thiệu</a></li>
+                        <li><a href="/pages/lien-he">Liên hệ</a></li>
+                        <li><a href="/pages/he-thong-cua-hang">Hệ thống cửa hàng</a></li>
+                    </ul>
+                </div>--><!-- .top-links end -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+<nav class="top-menu">
+    <div class="headerlinks">
+        @Html.Widget("header")
+        @Html.Action("HeaderLinks", "Common")
+    </div>
+</nav>
+    -->   
+
+
+<!-- Header ============================================ -->
+<header id="header" class="style_1">
+    <div id="header-wrap">
+        <div class="container clearfix">
+            <div class="header_icon fright hidden-xs hidden-sm">
+                <div class="header_login">
+                    <a href="#" title="" class="awemenu-icon">
+                        <i class="glyphicon glyphicon-user"></i>
+                    </a>
+                    <ul class="header_login_content unstyled">
+                        <li><a href="#">Đăng nhập</a></li>
+                        <li><a href="#">Đăng ký</a></li>
+                    </ul>
+                </div>
+               @Html.Action("CartMini", "Common")
+                @*@if (Model.ShoppingCartEnabled)
+                {
+                    <li id="topcartlink" class="dropdown cart-full-screen">
+                        <a href="@Url.RouteUrl("ShoppingCart")" class="ico-cart dropdown-toggle">
+                            <span class="cart-label">@T("ShoppingCart")</span>
+                            <span class="cart-qty">@T("ShoppingCart.HeaderQuantity", Model.ShoppingCartItems)</span>
+                        </a>
+
+                        <ul class="dropdown-menu" role="menu">
+                            @Html.Action("FlyoutShoppingCart", "ShoppingCart")
+                        </ul>
+                    </li>
+                }*@
+            </div>
+            <div class="primary_menu_wrap fright hidden-md hidden-sm hidden-xs">
+                 
+                <nav id="primary-menu" class="hidden-xs hidden-sm">
+                    @Html.Action("TopMenu", "Catalog")
+                </nav>
+
+
+                <!-- #primary-menu end -->
+            </div>
+            <!-- Logo ============================================= -->
+
+            <div id="logo">
+                <h1 class="nomargin" title="The Bag">
+                    @Html.Action("Logo", "Common")
+                   
+                </h1>
+            </div><!-- #logo end -->
+
+            <div class="cart_mb hidden-md hidden-lg">
+                <div id="top-cart" class="top-cart-block">
+                    @*<a href="/cart" id="top-cart-trigger" class="">
+                        <i class="fa fa-shopping-cart"></i>
+
+                        <span class="top_cart_qty">0</span>
+                    </a>
+                    <div class="top-cart-content">
+
+                        <div class="minicart-header">Chưa có sản phẩm trong giỏ!</div>
+                        <div class="minicart-footer">
+                            <div class="minicart-actions clearfix">
+                                <a class="button" href="#"><span class="text">VÀO CỬA HÀNG</span></a>
+                            </div>
+                        </div>
+                       
+                    </div>*@
+                    @Html.Action("FlyoutShoppingCart", "ShoppingCart")
+                </div>
+            </div>
+            <a href="#" id="topbar_trigger"><i class="fa fa-ellipsis-v hidden-lg hidden-md"></i></a>
+            <div id="topbar_mb" class="hidden-md hidden-lg text-right">
+                <p class="nobottommargin pull-right clearfix">
+                    <strong>Số điện thoại: <a href="tel:19001267">19001267</a></strong>
+                    <strong>Email: <a href="mailto:hello@egany.com">hello@egany.com</a></strong>
+                </p>
+                <!-- Top Links ============================================= -->
+                <div class="top-links pull-right clearfix">
+                    <ul>
+                        <li><a href="/pages/about-us">Giới thiệu</a></li>
+                        <li><a href="/pages/lien-he">Liên hệ</a></li>
+                        <li><a href="/pages/he-thong-cua-hang">Hệ thống cửa hàng</a></li>
+                        <li><a href="/account/login">Đăng nhập / Đăng ký</a></li>
+                    </ul>
+                </div><!-- .top-links end -->
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<!-- #header end -->
+
+@*<div class="header">
+    <div class="row">
+        <div class="col-sm-5 col-md-5">
+            @Html.Widget("header")
+          
+            <div class="header-logo">
+                @Html.Action("Logo", "Common")
+            </div>
+        </div>
+        <div class="col-sm-7 col-md-7">
+            <div class="header-selectors-wrapper">
+                <div class="search-box store-search-box pull-right">
+                    @Html.Action("SearchBox", "Catalog")
+                </div>
+                <div class="header-selectors">
+                    <div class="taxtype-selector">
+                        @Html.Action("TaxTypeSelector", "Common")
+                    </div>
+                    <div class="currency-selector">
+                        @Html.Action("CurrencySelector", "Common")
+                    </div>
+                    <div class="language-selector">
+                        @Html.Action("LanguageSelector", "Common")
+                    </div>
+                    @Html.Widget("header_selectors")
+                </div>
+            </div>
+        </div>
+     </div>
+</div>*@
+

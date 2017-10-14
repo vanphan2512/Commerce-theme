@@ -1,0 +1,28 @@
+* {
+	direction: rtl;
+}
+.nivo-controlNav {
+	left: 30px;
+	right: auto;
+}
+@media all and (min-width: 769px) {
+	.nivo-directionNav:after {
+		left: 0;
+		right: 0;
+	}
+	.nivo-directionNav {
+		left: 0;
+		right: auto;
+	}
+    
+    a.nivo-nextNav {
+        left: 0;
+        right: auto;
+        background-image: url("slider-arrow-left.png");
+    }
+    a.nivo-prevNav {
+        left: auto;
+        right: 0;
+        background-image: url("slider-arrow-right.png");
+    }
+}

@@ -1,0 +1,48 @@
+﻿@model Nop.Web.Models.Common.SocialModel
+
+
+@if (!string.IsNullOrEmpty(Model.FacebookLink))
+{
+    <a href="@Model.FacebookLink" target="_blank" class="si-facebook social-icon si-dark si-colored">
+        @*@T("Footer.FollowUs.Facebook")*@
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-facebook"></i>
+    </a>
+    
+}
+@if (!string.IsNullOrEmpty(Model.TwitterLink))
+{
+    <a href="@Model.TwitterLink" target="_blank" class="si-twitter social-icon si-dark si-colored">
+        @*@T("Footer.FollowUs.Twitter")*@
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-twitter"></i>
+    </a>
+}
+@if (Model.NewsEnabled)
+{
+    <a href="@Url.RouteUrl("NewsRSS", new { languageId = Model.WorkingLanguageId })" class="si-rss social-icon si-dark si-colored">
+        @*@T("Footer.FollowUs.RSS")*@
+        <i class="fa fa-rss"></i>
+        <i class="fa fa-rss"></i>
+    </a>
+}
+@if (!string.IsNullOrEmpty(Model.YoutubeLink))
+{
+    <a href="@Model.YoutubeLink" target="_blank" class="si-youtube social-icon si-dark si-colored">
+        @*@T("Footer.FollowUs.Youtube")*@
+        <i class="fa fa-youtube-play"></i>
+        <i class="fa fa-youtube-play"></i>
+    </a>
+
+}
+@if (!string.IsNullOrEmpty(Model.GooglePlusLink))
+{
+
+    <a href="@Model.GooglePlusLink" target="_blank" class="si-gplus social-icon si-dark si-colored">
+        @*@T("Footer.FollowUs.GooglePlus")*@
+        <i class="fa fa-google-plus"></i>
+        <i class="fa fa-google-plus"></i>
+    </a>
+}
+
+

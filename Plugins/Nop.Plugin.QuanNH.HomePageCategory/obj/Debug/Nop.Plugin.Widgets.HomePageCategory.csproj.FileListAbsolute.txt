@@ -1,0 +1,173 @@
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\13 - IIS\Sim3G\Development\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\13 - IIS\Sim3G\Development\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\13 - IIS\Sim3G\Development\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo1.cshtml
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo1.cshtml
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo2.cshtml
+D:\13 - IIS\Sim3G\Development\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo2.cshtml
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo2.cshtml
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo2.cshtml
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo1.cshtml
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo1.cshtml
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+C:\Users\thehobit-pc\Downloads\Compressed\nopCommerce_3.60_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo2.cshtml
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo2.cshtml
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo1.cshtml
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo1.cshtml
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\13 - IIS\TaiGame\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\13 - IIS\TaiGame\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+D:\13 - IIS\TaiGame\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\13 - IIS\TaiGame\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo2.cshtml
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo2.cshtml
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo1.cshtml
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo1.cshtml
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\13 - IIS\TaiTroChoi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\13 - IIS\TaiTroChoi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+D:\13 - IIS\TaiTroChoi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\13 - IIS\TaiTroChoi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo2.cshtml
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo2.cshtml
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo1.cshtml
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo1.cshtml
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\13 - IIS\TopTaiGameMienPhi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+D:\13 - IIS\TopTaiGameMienPhi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\13 - IIS\TopTaiGameMienPhi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo2.cshtml
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo2.cshtml
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo1.cshtml
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo1.cshtml
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+G:\13 - IIS\TopTaiGameMienPhi\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+G:\13 - IIS\TopTaiGameMienPhi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+G:\13 - IIS\TopTaiGameMienPhi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+G:\13 - IIS\TopTaiGameMienPhi\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\03 - Project\TaiLieuHay\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\03 - Project\TaiLieuHay\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo2.cshtml
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo2.cshtml
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo1.cshtml
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo1.cshtml
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+D:\03 - Project\TaiLieuHay\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+D:\03 - Project\TaiLieuHay\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+E:\SaiGonBin\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+E:\SaiGonBin\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+E:\SaiGonBin\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+E:\SaiGonBin\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+E:\SaiGonBin\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+E:\SaiGonBin\futurebook.vn\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+E:\SaiGonBin\futurebook.vn\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+E:\SaiGonBin\futurebook.vn\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+E:\CaNhan\Project\KienPhongCMS\futurebook.vn\CMS\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+E:\SaiGonBin\EzuliShop.com\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+E:\SaiGonBin\EzuliShop.com\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+E:\SaiGonBin\EzuliShop.com\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csproj.CoreCompileInputs.cache
+E:\SaiGonBin\EzuliShop.com\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+E:\SaiGonBin\EzuliShop.com\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\web.config
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Description.txt
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\logo.jpg
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\Configure.cshtml
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\ProductsPublicInfo.cshtml
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Views\WidgetsHomePageCategory\PublicInfo.cshtml
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll.config
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.dll
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Presentation\Nop.Web\Plugins\Widgets.HomePageCategory\Nop.Plugin.Widgets.HomePageCategory.pdb
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.csprojResolveAssemblyReference.cache
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.dll
+F:\phan\nopcommerce\nopCommerce_3.90_Source\Plugins\Nop.Plugin.QuanNH.HomePageCategory\obj\Debug\Nop.Plugin.Widgets.HomePageCategory.pdb

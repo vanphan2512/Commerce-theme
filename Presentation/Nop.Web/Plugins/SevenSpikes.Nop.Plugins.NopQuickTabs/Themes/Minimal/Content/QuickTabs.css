@@ -1,0 +1,111 @@
+﻿/* GLOBAL STYLES */
+
+.product-details-page .full-description,
+.product-details-page .product-specs-box, 
+.product-details-page .product-reviews-overview, 
+.product-details-page .product-no-reviews,
+.ui-tabs .product-specs-box .title {
+    display: none;
+}
+.ui-tabs .product-specs-box,
+.ui-tabs .product-reviews-page,
+.ui-tabs .full-description  {
+    display: block;
+    line-height: 26px;
+}
+
+/* THEME STYLES */
+
+.product-essential {
+	margin-bottom: 20px;
+}
+.full-description {
+	margin-bottom: 0;
+}
+.product-specs-box,
+.product-specs-box .data-table {
+	margin-bottom: 0;
+}
+.productTabs {
+    padding-top: 10px;
+    background-color: #fff;
+} 
+.productTabs .product-reviews-page .write-review .title {
+    display: none;
+} 
+.productTabs .inputs:before,
+.productTabs .inputs:after {
+    display: none;
+}
+.productTabs .inputs input,
+.productTabs .inputs textarea {
+    height: 50px;
+    border: 2px solid #eee;
+}
+.productTabs .product-review-list {
+    background: #fff;
+}
+.productTabs .product-reviews-page .title {
+    padding-top: 30px;
+}
+.productTabs .write-review {
+    position: relative;
+    padding: 0 20px;
+}
+.productTabs .write-review > .message-error {
+    top: -30px;
+    bottom: auto;
+}
+.productTabs .submitReviewResult {
+    padding: 20px 20px 50px;
+}
+.product-review-item-inner-wrapper {
+    padding: 25px 20px 50px;
+}
+.product-review-item .review-item-head {
+    position: relative;
+    padding-top: 35px;
+}
+.product-review-item .product-review-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.ui-tabs-panel .data-table a {
+    font-size: 14px;
+}
+
+@media all and (min-width: 769px) {
+
+    .productTabs {
+        background-color: transparent;
+    } 
+    .product-review-item .product-review-box {
+        position: relative;
+    }
+}
+
+@media all and (min-width: 1281px) {
+
+    .product-essential {
+	    margin-bottom: 80px;
+    }
+    .productTabs .inputs label {
+        text-align: center;
+        color: #000;
+    }
+    .product-review-item-inner-wrapper {
+        max-width: 1260px;
+        margin: auto;
+        padding: 20px 0 35px;
+        text-align: left;
+    }
+    .product-review-item .review-item-head {
+        padding: 0;
+    }
+    .productTabs .product-reviews-page {
+        margin-bottom: -50px;
+    }
+}

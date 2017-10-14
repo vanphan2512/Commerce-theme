@@ -1,0 +1,39 @@
+﻿@model IList<CategoryModel>
+@using Nop.Web.Models.Catalog
+    @if (Model.Count >= 0)
+    {
+        foreach (var item in Model)
+        {
+            <div class='index_col_wrap nobottommargin section nobg'>
+                <div class='block_title'>
+                    <h2 class="title-top">
+                        <a href='@Url.RouteUrl("Category", new { SeName = item.SeName })' title="@item.PictureModel.Title">
+                           @item.Name
+                        </a>
+                        @if (item.SubCategories.Count > 0)
+                        {
+                            <i class='visible-xs fa fa-caret-down'></i>
+                        }               
+                    </h2>
+                </div>
+                @if (item.SubCategories.Count > 0)
+                {
+                    <ul class='index_col_menu'>
+                        @foreach (var sub in item.SubCategories)
+                        {
+                            <li><a href='@Url.RouteUrl("Category", new { SeName = sub.SeName })' title="@sub.PictureModel.Title">@sub.Name</a></li>
+                        }
+                    </ul>
+                }
+                <div class='row'>
+                    <div class='col-xs-12 index_col_products'>
+                        <div class='row'>
+                            @Html.Action("ProductsPublicInfo", "WidgetsHomePageCategory", new { categoryId = item.Id })
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='clear'></div>
+        }
+        
+    }

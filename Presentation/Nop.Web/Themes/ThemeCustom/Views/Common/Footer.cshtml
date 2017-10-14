@@ -1,0 +1,180 @@
+﻿@model FooterModel
+@using Nop.Core
+@using Nop.Core.Domain.Tax
+@using Nop.Core.Infrastructure
+@using Nop.Web.Models.Common;
+
+
+
+<div class="container">
+    <div class="subscribe_group ohidden">
+
+        <div class="col-sm-6 col-md-8 col-xs-12 subscribe_group_left ohidden noleftpadding">
+            <h5 class="hidden-xs hidden-sm">
+                <i class="fa fa-envelope-o" style="margin-right: 5px; font-size: 25px; vertical-align: middle; line-height: 38px;"></i>
+                ĐĂNG KÝ NHẬN TIN KHUYẾN MÃI
+            </h5>
+            @Html.Action("NewsletterBox", "Newsletter")
+        </div>
+        <div class="subscribe_group_right col-xs-12 col-sm-6 col-md-4 text-right norightpadding">
+            @Html.Action("Social", "Common")
+        </div>
+    </div>
+</div>
+
+<footer id="footer" class="dark">
+    <div class="container">
+        <!-- Footer Widgets ============================================= -->
+        <div class="style_1 prefooter_wrap footer-widgets-wrap clearfix">
+            <div class="row">
+                <div class="prefooter_one col-xs-12 text-center">
+                    <div class="widget clearfix">
+                        <a href="#" class="footer_logo">
+                            <img alt="The Bag" src="~/Themes/ThemeCustom/Content/images/footer_logo.png" style="background: none;">
+                        </a>
+                        <p></p>
+                        <p>Túi xách - Phụ kiện không thể thiếu của phái đẹp</p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="prefooter_one col-xs-12">
+                    <div class="widget widget_links clearfix">
+                        <h4 class="widget_trigger">@T("Footer.Information")</h4>
+                        <ul class="widget_content>
+                            @if (Model.SitemapEnabled)
+                            {
+                                <li><a href="@Url.RouteUrl("Sitemap")">@T("Sitemap")</a></li>
+                            }
+                            @foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn1).ToList())
+                            {
+                                <li>
+                                    <a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a>
+                                </li>
+                            }
+                            <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="prefooter_one col-xs-12">
+                    <div class="widget widget_links clearfix">
+                        <h4 class="widget_trigger">
+                            @T("Footer.CustomerService")
+                            <i class="visible-xs fa fa-plus-square pull-right"></i>
+                        </h4>
+                        <ul class="widget_content">
+                            <li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a> </li>
+                            @if (Model.NewsEnabled)
+                            {
+                                <li><a href="@Url.RouteUrl("NewsArchive")">@T("News")</a></li>
+                            }
+                            @if (Model.BlogEnabled)
+                            {
+                                <li><a href="@Url.RouteUrl("Blog")">@T("Blog")</a></li>
+                            }
+                            @if (Model.ForumEnabled)
+                            {
+                                <li><a href="@Url.RouteUrl("Boards")">@T("Forum.Forums")</a></li>
+                            }
+                            @if (Model.RecentlyViewedProductsEnabled)
+                            {
+                                <li><a href="@Url.RouteUrl("RecentlyViewedProducts")">@T("Products.RecentlyViewedProducts")</a></li>
+                            }
+                            @if (Model.CompareProductsEnabled)
+                            {
+                                <li><a href="@Url.RouteUrl("CompareProducts")">@T("Products.Compare.List")</a></li>
+                            }
+                            @if (Model.NewProductsEnabled)
+                            {
+                                <li><a href="@Url.RouteUrl("NewProducts")">@T("Products.NewProducts")</a></li>
+                            }
+                            @foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn2).ToList())
+                            {
+                                <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
+                            }
+                        </ul>
+                       
+                    </div>
+                </div>
+                <div class="prefooter_one col-xs-12">
+                    <div class="widget widget_links clearfix">
+                        <h4 class="widget_trigger">
+                            Hướng dẫn
+                            <i class="visible-xs fa fa-plus-square pull-right"></i>
+                        </h4>
+                        <ul class="widget_content">
+
+                            <li><a href="#">Câu hỏi thường gặp</a></li>
+
+                            <li><a href="#">Hướng dẫn cách tính size</a></li>
+
+                            <li><a href="#">Chính sách đổi trả</a></li>
+
+                            <li><a href="#">Hướng dẫn bảo quản</a></li>
+
+                            <li><a href="#">Hướng dẫn thanh toán</a></li>
+
+                            <li><a href="#">Hướng dẫn mua hàng</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="prefooter_one col-xs-12">
+                    <div class="widget clearfix" style="">
+                        <div class="widget clearfix payment_block">
+                            <h4>Chứng nhận</h4>
+                            <img src="/Themes/ThemeCustom/Content/images/payment_img.png" style="background: none;">
+                        </div>
+
+                        <a href="#">
+                            <img src="~/Themes/ThemeCustom/Content/images/register_img.png" style="background: none;">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- .footer-widgets-wrap end -->
+    </div>
+    <!-- Copyrights ============================================= -->
+    <div id="copyrights">
+        <div class="container clearfix">
+            <div class="col-md-6 nopadding">
+                © Bản quyền thuộc về <a href="#" target="_blank">EGANY</a>.
+                <a target="_blank" href="#">Powered by Haravan</a>
+                <div class="copyright-links">
+                    <a href="#">Tìm kiếm</a>
+                    / <a href="/pages/about-us">Giới thiệu</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-right nopadding">
+                EGANY Co.Ltd - 12345 Quang Trung, Q. Gò Vấp, Tp.HCM | Email: <a href="mailto:vanphan2512@gmail.com">vanphan2512@gmail.com</a> | Hotline: <a href="tel:1900.123.789">1900.123.789</a>
+            </div>
+        </div>
+    </div>
+    <!-- #copyrights end -->
+</footer>
+
+<script>
+    function animationHover(element, animation) {
+        element = $(element);
+        var subul = element.find('ul');
+        element.hover(
+            function () {
+                subul.addClass('animated ' + animation);
+            },
+            function () {
+                //wait for animation to finish before removing classes
+                subul.removeClass('animated ' + animation);
+            });
+    }
+
+    $("#sidebar-wrapper ul li a span").click(function (event) {
+        event.preventDefault();
+        var li = $(this).parents('li');
+        li.children('ul').toggle('slow');
+    });
+
+    $('#primary-menu > ul > li').each(function () {
+        animationHover(this, 'bounce');
+    });
+</script>

@@ -1,0 +1,9 @@
+﻿Group: Widgets
+FriendlyName: Slider Revolution
+SystemName: Widgets.SliderRevolution
+Version: 1.0
+SupportedVersions: 3.90
+Author: SaiGonTeam
+DisplayOrder: 1
+FileName: Nop.Plugin.Widgets.SliderRevolution.dll
+Description: This plugin allows you to change the contents of main page slider

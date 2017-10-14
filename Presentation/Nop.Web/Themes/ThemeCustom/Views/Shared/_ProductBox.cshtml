@@ -1,0 +1,109 @@
+﻿@model ProductOverviewModel
+@using Nop.Core
+@using Nop.Core.Domain.Catalog
+@using Nop.Core.Domain.Orders
+@using Nop.Core.Domain.Tax
+@using Nop.Core.Infrastructure
+@using Nop.Web.Models.Catalog;
+@{
+    //prepare "Add to cart" AJAX link
+    string addtocartlink = "";
+    var shoppingCartTypeId = (int)ShoppingCartType.ShoppingCart;
+    var quantity = 1;
+    if (Model.ProductPrice.ForceRedirectionAfterAddingToCart)
+    {
+        addtocartlink = Url.RouteUrl("AddProductToCart-Catalog", new { productId = Model.Id, shoppingCartTypeId = shoppingCartTypeId, quantity = quantity, forceredirection = Model.ProductPrice.ForceRedirectionAfterAddingToCart });
+    }
+    else
+    {
+        addtocartlink = Url.RouteUrl("AddProductToCart-Catalog", new { productId = Model.Id, shoppingCartTypeId = shoppingCartTypeId, quantity = quantity });
+    }
+
+    var addtowishlistlink = Url.RouteUrl("AddProductToCart-Catalog", new { productId = Model.Id, shoppingCartTypeId = (int)ShoppingCartType.Wishlist, quantity = quantity });
+    var addtocomparelink = Url.RouteUrl("AddProductToCompare", new { productId = Model.Id });
+}
+
+
+
+<div class="product clearfix">
+    <div class="product-image">
+       
+        <a href="@Url.RouteUrl("Product", new { SeName = Model.SeName })" title="@Model.DefaultPictureModel.Title">
+            <img alt="@Model.DefaultPictureModel.AlternateText" src="@Model.DefaultPictureModel.ImageUrl" title="@Model.DefaultPictureModel.Title" />
+        </a>
+        <div class="product_overlay hidden-sm hidden-xs style_2">
+            <form method="post" id="" enctype="multipart/form-data" action="/cart/add">
+                <div class="quick_action clearfix">
+                    @*<input type="hidden" name="variantId" value="1015042210">
+                    <input type="hidden" name="quantity" value="1">
+
+                    <a data-role="addtocart" href="#add-with-pop-up" product_url="/products/tui-birkin-o-khoa-cabwer-do" data-toggle="tooltip" title="" class="product_quick_add" data-original-title="Thêm vào giỏ"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" data-toggle="tooltip" title="" class="ega-quicklook-btn" data-url="/products/tui-birkin-o-khoa-cabwer-do" data-modalcontent="quicklook-content" data-target="#quicklook-modal" data-original-title="Xem nhanh">
+                        <i class="fa fa-eye"></i>
+                    </a>*@
+                    
+                <div class="buttons">
+                    @*<input type="button" value="@T("Products.Details")" class="button-1 product-box-detail-button" onclick="setLocation('@Url.RouteUrl("Product", new { SeName = Model.SeName })')" />*@
+                    @if (!Model.ProductPrice.DisableBuyButton)
+                    {
+                        var addToCartText = T("ShoppingCart.AddToCart").Text;
+                        if (Model.ProductPrice.IsRental)
+                        {
+                            addToCartText = T("ShoppingCart.Rent").Text;
+                        }
+                        if (Model.ProductPrice.AvailableForPreOrder)
+                        {
+                            addToCartText = T("ShoppingCart.PreOrder").Text;
+                        }
+                        <a data-role="addtocart" href="#"  onclick="AjaxCart.addproducttocart_catalog('@addtocartlink');return false;"  product_url="/products/tui-birkin-o-khoa-cabwer-do" data-toggle="tooltip" title="" class="product_quick_add product-box-add-to-cart-button" data-original-title="Thêm vào giỏ"><i class="fa fa-shopping-cart"></i></a>
+                        @*<input type="button" value="@(addToCartText)" class="btn btn-primary product-box-add-to-cart-button" onclick="AjaxCart.addproducttocart_catalog('@addtocartlink');return false;" />*@
+                    }
+		            @if (!Model.ProductPrice.DisableAddToCompareListButton)
+                	{
+                        <input type="button" value=" " title="@T("ShoppingCart.AddToCompareList")" class="button-2 add-to-compare-list-button" onclick="AjaxCart.addproducttocomparelist('@addtocomparelink');return false;" />
+        	        }
+                	@if (!Model.ProductPrice.DisableWishlistButton)
+                	{
+                    		@*<input type="button" value="wishlist " title="@T("ShoppingCart.AddToWishlist")" class="button-2 add-to-wishlist-button" onclick="AjaxCart.addproducttocart_catalog('@addtowishlistlink');return false;" />*@
+                            
+                            <a href="#" data-toggle="tooltip" title="@T("ShoppingCart.AddToWishlist")" class="ega-quicklook-btn button-2 add-to-wishlist-button" onclick="AjaxCart.addproducttocart_catalog('@addtowishlistlink');return false;" data-original-title="Xem nhanh">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </a>
+                    }	
+                </div>
+                @Html.Widget("productbox_addinfo_after", Model.Id)
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="product-desc">
+        <div class="product-title">
+            <h4>
+                <a href="#" title="Túi birkin ổ khóa Cabwer đỏ">Túi birkin ổ khóa Cabwer đỏ</a>
+            </h4>
+        </div>
+        <div class="product-price">
+            @if (!String.IsNullOrEmpty(Model.ProductPrice.OldPrice))
+            {
+                <span class="price old-price">@Model.ProductPrice.OldPrice</span>
+            }
+            <ins class="price actual-price">@Model.ProductPrice.Price</ins>
+            @if (Model.ProductPrice.DisplayTaxShippingInfo)
+            {
+                var inclTax = EngineContext.Current.Resolve<IWorkContext>().TaxDisplayType == TaxDisplayType.IncludingTax;
+                //tax info is already included in the price (incl/excl tax). that's why we display only shipping info here
+                //of course, you can modify appropriate locales to include VAT info there
+                <span class="tax-shipping-info">
+                    @T(inclTax ? "Products.Price.TaxShipping.InclTax" : "Products.Price.TaxShipping.ExclTax", Url.RouteUrl("Topic", new { SeName = Html.GetTopicSeName("shippinginfo") }))
+                </span>
+            }
+            @if (!String.IsNullOrEmpty(Model.ProductPrice.BasePricePAngV))
+            {
+                <div class="base-price-pangv">
+                    @Model.ProductPrice.BasePricePAngV
+                </div>
+            }
+           
+        </div>
+    </div>
+</div>

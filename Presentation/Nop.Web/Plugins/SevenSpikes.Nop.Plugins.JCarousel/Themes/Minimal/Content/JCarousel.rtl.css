@@ -1,0 +1,34 @@
+.nop-jcarousel .carousel-title {
+	background: url(images/title-dots-decoration.png) repeat-x right top 43px;
+}
+.jCarouselMainWrapper .slick-prev {
+	left: 50%;
+	right: auto;
+    background-image: url(images/next-horizontal.png);
+}
+.jCarouselMainWrapper .slick-next:before,
+.nop-jcarousel .jcarousel-next-vertical:before {
+	right: -1px;
+	left: auto;
+}
+.jCarouselMainWrapper .slick-next {
+	right: 50%;
+	left: auto;
+    background-image: url(images/prev-horizontal.png);
+}
+@media all and (min-width: 769px) and (max-width: 1000px) {
+	.manufacturers-carousel .jcarousel-next-horizontal {
+		left: 0;
+		right: auto;
+	}
+}
+@media all and (min-width: 1281px) {
+	.nop-jcarousel .item-box .details .buttons {
+		left: 0;
+		right: auto;
+	}
+	.side-2 .carousel-title:after {
+		left: 3px;
+		right: auto;
+	}
+}

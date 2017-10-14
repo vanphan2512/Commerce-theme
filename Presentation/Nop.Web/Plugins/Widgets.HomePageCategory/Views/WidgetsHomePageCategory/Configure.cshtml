@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "";
+}
+@model Nop.Plugin.Widgets.HomePageCategory.Models.ConfigurationModel
+@using Nop.Web.Framework;
+@Html.Action("StoreScopeConfiguration", "Setting", new { area = "Admin" })
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+        <div class="panel-group">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.OverrideStoreCheckboxFor(model => model.Enable_OverrideForStore, model => model.Enable, Model.ActiveStoreScopeConfiguration)
+                        @Html.NopLabelFor(model => model.Enable)
+                    </div>
+                    <div class="col-md-9">
+                       @Html.EditorFor(model => model.Enable)
+                       @Html.ValidationMessageFor(model => model.Enable)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.OverrideStoreCheckboxFor(model => model.Template_OverrideForStore, model => model.Template, Model.ActiveStoreScopeConfiguration)
+                        @Html.NopLabelFor(model => model.Template)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.EditorFor(model => model.Template)
+                        @Html.ValidationMessageFor(model => model.Template)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                       @Html.OverrideStoreCheckboxFor(model => model.DisplayFeaturedProduct_OverrideForStore, model => model.DisplayFeaturedProduct, Model.ActiveStoreScopeConfiguration)
+                       @Html.NopLabelFor(model => model.DisplayFeaturedProduct)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.EditorFor(model => model.DisplayFeaturedProduct)
+                        @Html.ValidationMessageFor(model => model.DisplayFeaturedProduct)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.OverrideStoreCheckboxFor(model => model.NumberFeaturedProduct_OverrideForStore, model => model.NumberFeaturedProduct, Model.ActiveStoreScopeConfiguration)
+                        @Html.NopLabelFor(model => model.NumberFeaturedProduct)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.EditorFor(model => model.NumberFeaturedProduct)
+                        @Html.ValidationMessageFor(model => model.NumberFeaturedProduct)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.OverrideStoreCheckboxFor(model => model.NumberProduct_OverrideForStore, model => model.NumberProduct, Model.ActiveStoreScopeConfiguration)
+                        @Html.NopLabelFor(model => model.NumberProduct)
+                    </div>
+                    <div class="col-md-9">
+                       @Html.EditorFor(model => model.NumberProduct)
+                    @Html.ValidationMessageFor(model => model.NumberProduct)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        &nbsp;
+                    </div>
+                    <div class="col-md-9">
+                        <input type="submit" name="save" class="k-button" value="@T("Admin.Common.Save")" />
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+}
